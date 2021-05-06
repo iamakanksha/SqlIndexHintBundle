@@ -1,7 +1,8 @@
 # USE INDEX and FORCE INDEX using Doctrine MySql
 
 Doctrine SqlWalker extension to apply USE INDEX and FORCE INDEX hints using DQL on top of MySql.
-Works with both createQuery and createQueryBuilder.
+Works on Query.
+As per parent repository, it may also work with both createQuery and createQueryBuilder. 
 You can set different index hints per DQL table aliases.
 
 ## Getting Started
@@ -26,7 +27,7 @@ Require with composer, ie.:
 ```
 {
     "require": {
-        "ggergo/sqlindexhintbundle": "*"
+        "iamakanksha/sql-index-hint-bundle": "*"
     }
 }
 ```
